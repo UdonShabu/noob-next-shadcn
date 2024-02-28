@@ -6,7 +6,9 @@ export default function Sidebar() {
       <div>
         <UserItem />
       </div>
-      <div className="grow ">Menu</div>
+      <div className="grow ">
+        {/* Create this UI https://youtu.be/mju7e6Cf6Nk?t=478 */}
+      </div>
       <div>Setting</div>
     </div>
   );
