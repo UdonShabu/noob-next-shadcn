@@ -16,7 +16,9 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-3 gap-8">
         <Card className=" w-full h-[280px]">One</Card>
-        <Card className=" w-full h-[280px]">Two</Card>
+        <Card className=" w-full h-[280px]">
+          {/* Make Table scrollable inside itself  */}
+        </Card>
         <Card className=" w-full h-[280px]">Three</Card>
       </div>
     </main>
