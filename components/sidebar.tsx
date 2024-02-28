@@ -49,7 +49,7 @@ export default function Sidebar() {
     },
   ];
   return (
-    <div className="flex fixed flex-col min-w-[300px] min-h-screen border-r gap-4">
+    <div className="hidden lg:flex fixed flex-col min-w-[300px] min-h-screen border-r gap-4">
       <div>
         <UserItem />
       </div>

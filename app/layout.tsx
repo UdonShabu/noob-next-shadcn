@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={`${inter.className} flex items-start justify-between`}>
         {/* Make the whole page responsive */}
         <Sidebar />
-        <main className="w-full h-full pl-[300px]">
+        <main className="w-full h-full lg:pl-[300px]">
           <Header />
           <div className="p-4">{children}</div>
         </main>
