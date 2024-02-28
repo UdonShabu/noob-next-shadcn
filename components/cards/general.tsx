@@ -370,7 +370,7 @@ export default function General() {
         <CardTitle>Card Title</CardTitle>
         <CardDescription>Card Description</CardDescription>
       </CardHeader>
-      <CardContent className="w-full h-[400px]">
+      <CardContent className="w-full h-[300px]">
         <MyResponsiveBump data={data} />
       </CardContent>
     </Card>
